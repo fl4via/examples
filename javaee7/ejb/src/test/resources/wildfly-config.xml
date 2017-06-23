@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<configuration>
+    <discovery xmlns="urn:wildfly-discovery:1.0">
+        <discovery-provider>
+            <static>
+                <!--
+                <service uri="node:perf17" abstract-type="ejb" abstract-type-authority="jboss">
+                    <attribute name="cluster" value="ejb"/>
+                </service>
+                <service uri="http-remoting://10.16.90.52:8080" abstract-type="ejb" abstract-type-authority="jboss">
+                    <attribute name="node" value="perf18"/>
+                </service>
+                -->
+            </static>
+        </discovery-provider>
+        <registry-provider>
+            <local-registry/>
+        </registry-provider>
+    </discovery>
+</configuration>
+
